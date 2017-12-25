@@ -107,7 +107,7 @@ function getByDate(id) {
 //getRecommendations(298110) // problem in as browser can't get recommendations value
 get_gameIds().then(()=>{
 	console.log(bydate[ids[0]]);
-	function sort() {
+	sort=()=>{
 		for(let i=0;i<100;i++) {
 			for(j=i+1;j<101;j++) {
 				if(dict[id[i]]<dict[id[j]]) {
